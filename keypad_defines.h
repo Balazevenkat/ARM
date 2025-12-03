@@ -1,0 +1,9 @@
+//#ifndef _KEYPAD_H_
+//#define _KEYPAD_H_
+//extern  KPM[4][4]={{01,02,03,04},{05,06,07,08},{09,10,11,12},{13,14,15,16}};
+#include "types.h"
+void inti_kpm();
+s32 col_scan();
+s32 row_check();
+u32 col_check();
+s8 key_scan();

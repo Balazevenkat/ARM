@@ -1,0 +1,14 @@
+.\rtc_main.o: rtc_main.c
+.\rtc_main.o: types.h
+.\rtc_main.o: C:\Keil\ARM\Inc\Philips\lpc21xx.h
+.\rtc_main.o: arduino.h
+.\rtc_main.o: delay.h
+.\rtc_main.o: rtc.h
+.\rtc_main.o: type.h
+.\rtc_main.o: lcd.h
+.\rtc_main.o: lcd_defines.h
+.\rtc_main.o: pin_connect_block.h
+.\rtc_main.o: pin_functions_defines.h
+.\rtc_main.o: C:\Keil\ARM\ARMCC\bin\..\include\string.h
+.\rtc_main.o: kpm_defines.h
+.\rtc_main.o: kpm.h

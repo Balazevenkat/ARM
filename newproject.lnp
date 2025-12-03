@@ -1,0 +1,9 @@
+--cpu ARM7TDMI
+".\startup.o"
+".\delay_work.o"
+".\ardino_fun.o"
+".\assig5_part1.o"
+--strict --scatter ".\newproject.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\newproject.map" -o .\newproject.axf

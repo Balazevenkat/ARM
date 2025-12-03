@@ -1,0 +1,8 @@
+--cpu ARM7TDMI
+".\startup.o"
+".\keypad3.o"
+".\delay_work.o"
+--strict --scatter ".\All_projrct.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\All_projrct.map" -o .\All_projrct.axf

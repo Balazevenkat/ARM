@@ -1,0 +1,13 @@
+.\rtc_akhil.o: rtc_akhil.c
+.\rtc_akhil.o: C:\Keil\ARM\Inc\Philips\LPC21xx.h
+.\rtc_akhil.o: C:\Keil\ARM\ARMCC\bin\..\include\string.h
+.\rtc_akhil.o: rtc.h
+.\rtc_akhil.o: type.h
+.\rtc_akhil.o: lcd.h
+.\rtc_akhil.o: types.h
+.\rtc_akhil.o: delay.h
+.\rtc_akhil.o: pin_connect_block.h
+.\rtc_akhil.o: lcd_defines.h
+.\rtc_akhil.o: kpm.h
+.\rtc_akhil.o: arduino.h
+.\rtc_akhil.o: init_system.h

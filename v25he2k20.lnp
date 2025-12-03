@@ -1,0 +1,7 @@
+--cpu ARM7TDMI
+".\startup.o"
+".\test_lcd.o"
+--strict --scatter ".\v25he2k20.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\v25he2k20.map" -o .\v25he2k20.axf

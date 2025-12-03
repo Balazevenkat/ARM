@@ -1,0 +1,52 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+C:\Users\balaz\OneDrive\Desktop\Arm\v25he2k20.uvproj
+Project File Date:  11/22/2025
+
+<h2>Output:</h2>
+Build target 'Target 1'
+compiling LCD_scroll_name.c...
+tydef.h(7): warning:  #1-D: last line of file ends without a newline
+  #endif
+LCD_scroll_name.c(115): warning:  #1-D: last line of file ends without a newline
+  }
+LCD_scroll_name.c: 2 warnings, 0 errors
+linking...
+Program Size: Code=1744 RO-data=16 RW-data=0 ZI-data=1256  
+".\testing.axf" - 0 Error(s), 2 Warning(s).
+</pre>
+</body>
+</html>
+ last line of file ends without a newline
+  }
+LCD_scroll_name.c: 2 warnings, 0 errors
+linking...
+Program Size: Code=1744 RO-data=16 RW-data=0 ZI-data=1256  
+".\testing.axf" - 0 Error(s), 4 Warning(s).
+ning:  #177-D: variable "sec" was declared but never referenced
+        s32 dly=0,sec=0,flag=0,min=00;
+LCD_scroll_name.c(110): warning:  #177-D: variable "flag" was declared but never referenced
+        s32 dly=0,sec=0,flag=0,min=00;
+LCD_scroll_name.c(110): warning:  #177-D: variable "min" was declared but never referenced
+        s32 dly=0,sec=0,flag=0,min=00;
+LCD_scroll_name.c: 6 warnings, 0 errors
+linking...
+Program Size: Code=1756 RO-data=16 RW-data=0 ZI-data=1256  
+".\lcd_diec.axf" - 0 Error(s), 8 Warning(s).
+ss or type specifier
+              LCD_cmd(0xC0);
+LCD_stop_watch.c(184): error:  #147: declaration is incompatible with "void LCD_cmd(u32)" (declared at line 49)
+              LCD_cmd(0xC0);
+LCD_stop_watch.c(185): error:  #77-D: this declaration has no storage class or type specifier
+              sec++;
+LCD_stop_watch.c(185): error:  #65: expected a ";"
+              sec++;
+LCD_stop_watch.c(187): error:  #169: expected a declaration
+              if(sec==60)
+LCD_stop_watch.c(196): warning: At end of source:  #12-D: parsing restarts here after previous syntax error
+LCD_stop_watch.c: 5 warnings, 8 errors
+".\lcd_diec.axf" - 8 Error(s), 7 Warning(s).
+Target not created

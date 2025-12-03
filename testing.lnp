@@ -1,0 +1,8 @@
+--cpu ARM7TDMI
+".\startup.o"
+".\time.o"
+".\keypad.o"
+--strict --scatter ".\testing.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\testing.map" -o .\testing.axf

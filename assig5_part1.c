@@ -1,0 +1,33 @@
+/*Write an ECP to find the second highest digit in a given integer and display its binary
+equivalent on 8-LEDS (4-Active High LEDS& 4-Active Low LEDS). */
+#include <LPC21xx.h>
+#include "delay.h"
+#include "type.h"
+s32 hig=0,shig;
+main()
+{
+ u32 data=4679,num;
+ IODIR0|=255<<8;
+ while(data>0)
+ {
+   num=data%10;
+   if((num)>hig)
+   {
+   shig=hig;
+    hig=num;
+   }
+   else if(hig>num && num>shig)
+   {
+    shig=num;
+	}
+	 data/=10;
+	}
+	
+	IOCLR0=255<<8;
+	
+	IOSET0=(shig^0xf0)<<8;
+	//IOSET0=((shig & 0xff))^0xf0)<<8;
+	while(1);
+	}
+	
+ 

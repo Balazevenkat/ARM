@@ -1,0 +1,8 @@
+--cpu ARM7TDMI
+".\startup.o"
+".\delay.o"
+".\delay_work.o"
+--strict --scatter ".\delaycheck_project.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\delaycheck_project.map" -o .\delaycheck_project.axf

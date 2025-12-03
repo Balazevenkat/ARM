@@ -1,0 +1,19 @@
+Dependencies for Project 'v25he2k20', Target 'Target 1': (DO NOT MODIFY !)
+F (.\Startup.s)(0x532C14EA)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips--list .\startup.lst --xref -o .\startup.o --depend .\startup.d)
+F (.\type.h)(0x68F11E6D)()
+F (.\time.h)(0x691E02FC)()
+F (.\time.c)(0x6922D26C)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\time.o --omf_browse .\time.crf --depend .\time.d)
+I (time.h)(0x691E02FC)
+I (tydef.h)(0x691DF6FD)
+F (.\LCD_defines.h)(0x69248947)()
+F (.\LCD_custom.c)(0x69249472)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\lcd_custom.o --omf_browse .\lcd_custom.crf --depend .\lcd_custom.d)
+I (C:\Keil\ARM\Inc\Philips\LPC21xx.h)(0x532C1500)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7E87C)
+I (time.h)(0x691E02FC)
+I (tydef.h)(0x691DF6FD)
+I (type.h)(0x68F11E6D)
+F (.\LAB_LCD_keypad.c)(0x69254C8F)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\lab_lcd_keypad.o --omf_browse .\lab_lcd_keypad.crf --depend .\lab_lcd_keypad.d)
+I (C:\Keil\ARM\Inc\Philips\LPC21xx.h)(0x532C1500)
+I (LCD_defines.h)(0x69248947)
+I (type.h)(0x68F11E6D)
+I (delay.h)(0x6924B386)

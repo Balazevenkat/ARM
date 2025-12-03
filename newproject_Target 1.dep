@@ -1,0 +1,16 @@
+Dependencies for Project 'newproject', Target 'Target 1': (DO NOT MODIFY !)
+F (.\Startup.s)(0x532C14EA)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips--list .\startup.lst --xref -o .\startup.o --depend .\startup.d)
+F (.\type.h)(0x68F11E6D)()
+F (.\delay_work.c)(0x68F61E24)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\delay_work.o --omf_browse .\delay_work.crf --depend .\delay_work.d)
+I (delay.h)(0x68EA8EE0)
+F (.\ardino_def.h)(0x68FC6695)()
+F (.\ardino_fun.h)(0x68FCFF3B)()
+F (.\ardino_fun.c)(0x68FD0668)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\ardino_fun.o --omf_browse .\ardino_fun.crf --depend .\ardino_fun.d)
+I (C:\Keil\ARM\Inc\Philips\lpc21xx.h)(0x532C1500)
+I (ardino_fun.h)(0x68FCFF3B)
+I (ardino_def.h)(0x68FC6695)
+I (type.h)(0x68F11E6D)
+F (.\assig5_part1.c)(0x68FE3178)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\assig5_part1.o --omf_browse .\assig5_part1.crf --depend .\assig5_part1.d)
+I (C:\Keil\ARM\Inc\Philips\LPC21xx.h)(0x532C1500)
+I (delay.h)(0x68EA8EE0)
+I (type.h)(0x68F11E6D)

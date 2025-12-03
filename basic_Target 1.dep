@@ -1,0 +1,49 @@
+Dependencies for Project 'basic', Target 'Target 1': (DO NOT MODIFY !)
+F (.\Startup.s)(0x532C14EA)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips--list .\startup.lst --xref -o .\startup.o --depend .\startup.d)
+F (.\types.h)(0x69273B7F)()
+F (.\delay.h)(0x6925E3D0)()
+F (.\delay.c)(0x6925EA7F)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\delay.o --omf_browse .\delay.crf --depend .\delay.d)
+I (tydef.h)(0x691DF6FD)
+F (.\arduino.c)(0x6925EBA6)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\arduino.o --omf_browse .\arduino.crf --depend .\arduino.d)
+I (C:\Keil\ARM\Inc\Philips\LPC21xx.h)(0x532C1500)
+I (types.h)(0x69273B7F)
+I (arduino_defines.h)(0x6925E2A9)
+F (.\lcd.c)(0x69288C7E)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\lcd.o --omf_browse .\lcd.crf --depend .\lcd.d)
+I (types.h)(0x69273B7F)
+I (delay.h)(0x6925E3D0)
+I (arduino_defines.h)(0x6925E2A9)
+I (arduino.h)(0x6925E2DA)
+I (lcd_defines.h)(0x6925EC11)
+F (.\rtc_akhil.c)(0x692EEBE2)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\rtc_akhil.o --omf_browse .\rtc_akhil.crf --depend .\rtc_akhil.d)
+I (C:\Keil\ARM\Inc\Philips\LPC21xx.h)(0x532C1500)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C7E87C)
+I (rtc.h)(0x6925DC9D)
+I (type.h)(0x68F11E6D)
+I (lcd.h)(0x692EDC23)
+I (types.h)(0x69273B7F)
+I (delay.h)(0x6925E3D0)
+I (pin_connect_block.h)(0x6929D8B6)
+I (lcd_defines.h)(0x6925EC11)
+I (kpm.h)(0x692DF85A)
+I (arduino.h)(0x6925E2DA)
+I (init_system.h)(0x69282701)
+F (.\kpm.c)(0x692EE78E)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\kpm.o --omf_browse .\kpm.crf --depend .\kpm.d)
+I (C:\Keil\ARM\Inc\Philips\LPC21xx.h)(0x532C1500)
+I (types.h)(0x69273B7F)
+I (lcd.h)(0x692EDC23)
+I (kpm_defines.h)(0x692848B5)
+F (.\init_system.c)(0x69282711)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\init_system.o --omf_browse .\init_system.crf --depend .\init_system.d)
+I (kpm.h)(0x692DF85A)
+I (types.h)(0x69273B7F)
+I (lcd.h)(0x692EDC23)
+I (rtc.h)(0x6925DC9D)
+I (type.h)(0x68F11E6D)
+F (.\rtc.c)(0x692BB830)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\rtc.o --omf_browse .\rtc.crf --depend .\rtc.d)
+I (C:\Keil\ARM\Inc\Philips\LPC21xx.H)(0x532C1500)
+I (rtc_defies.h)(0x6925F652)
+I (types.h)(0x69273B7F)
+I (lcd.h)(0x692EDC23)
+I (lcd_defines.h)(0x6925EC11)
+F (.\pin_connect_block.c)(0x6929D890)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\pin_connect_block.o --omf_browse .\pin_connect_block.crf --depend .\pin_connect_block.d)
+I (types.h)(0x69273B7F)
+I (C:\Keil\ARM\Inc\Philips\LPC21xx.h)(0x532C1500)

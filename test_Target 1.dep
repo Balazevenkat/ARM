@@ -1,0 +1,14 @@
+Dependencies for Project 'test', Target 'Target 1': (DO NOT MODIFY !)
+F (.\Startup.s)(0x532C14EA)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips--list .\startup.lst --xref -o .\startup.o --depend .\startup.d)
+F (.\delay.h)(0x6925E3D0)()
+F (.\type.h)(0x68F11E6D)()
+F (.\delay.c)(0x6925EA7F)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\delay.o --omf_browse .\delay.crf --depend .\delay.d)
+I (tydef.h)(0x691DF6FD)
+F (.\eint0_virq_eint1_virq_test.c)(0x6929DD41)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\eint0_virq_eint1_virq_test.o --omf_browse .\eint0_virq_eint1_virq_test.crf --depend .\eint0_virq_eint1_virq_test.d)
+I (C:\Keil\ARM\Inc\Philips\LPC21xx.h)(0x532C1500)
+I (types.h)(0x69273B7F)
+I (pin_functions_defines.h)(0x6929D8D3)
+I (pin_connect_block.h)(0x6929D8B6)
+F (.\pin_connect_block.c)(0x6929D890)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\pin_connect_block.o --omf_browse .\pin_connect_block.crf --depend .\pin_connect_block.d)
+I (types.h)(0x69273B7F)
+I (C:\Keil\ARM\Inc\Philips\LPC21xx.h)(0x532C1500)

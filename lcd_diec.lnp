@@ -1,0 +1,8 @@
+--cpu ARM7TDMI
+".\startup.o"
+".\time.o"
+".\lcd_scroll_name.o"
+--strict --scatter ".\lcd_diec.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\lcd_diec.map" -o .\lcd_diec.axf

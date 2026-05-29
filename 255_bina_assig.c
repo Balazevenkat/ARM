@@ -1,3 +1,4 @@
+
 /*Write an ECP to print the binary equivalent of product of the digits for the given
 integer on LEDS (4-Active High LEDS& 4-Active Low LEDS).
 Note: if the product is >255, Switch on alternate LEDS. 
